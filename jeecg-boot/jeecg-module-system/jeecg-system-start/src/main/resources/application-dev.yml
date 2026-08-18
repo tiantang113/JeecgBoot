@@ -147,9 +147,9 @@ spring:
           slow-sql-millis: 5000
       datasource:
         master:
-          url: jdbc:mysql://127.0.0.1:3306/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+          url: jdbc:mysql://117.159.44.22:9008/jeecg-boot?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
           username: root
-          password: root
+          password: mysql_rbzaGm
           driver-class-name: com.mysql.cj.jdbc.Driver
 #        # shardingjdbc数据源
 #        sharding-db:
@@ -159,8 +159,8 @@ spring:
   data:
     redis:
       database: 0
-      host: 127.0.0.1
-      port: 6379
+      host: 172.30.12.83
+      port: 63379
       password:
 #mybatis plus 设置
 mybatis-plus:
@@ -328,7 +328,7 @@ jeecg:
       # OpenAI 兼容 base 地址（必填）
       base-url: https://api.deepseek.com
       # API Key（必填，留空则 AI 不可用）
-      api-key: 
+      api-key:
       # 模型名
       model: deepseek-v4-pro
       #确定性输出，默认temperature=0
