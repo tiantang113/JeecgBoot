@@ -159,9 +159,9 @@ spring:
   data:
     redis:
       database: 0
-      host: 172.30.12.83
-      port: 63379
-      password:
+      host: 117.159.44.22
+      port: 9006
+      password: 1qaz!QAZ
 #mybatis plus 设置
 mybatis-plus:
   mapper-locations: classpath*:org/jeecg/**/xml/*Mapper.xml
@@ -188,7 +188,7 @@ jeecg:
   ai-chat:
     enabled: true
     model: deepseek-v4-pro
-    apiKey: ??
+    apiKey: sk-d1ad2ecdc3e34ba68612446d38d414c1
     apiHost: https://api.deepseek.com/v1
     timeout: 60
     skills-dir:
